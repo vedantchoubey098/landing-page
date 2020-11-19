@@ -1,0 +1,418 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'open sans', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+li{
+
+    list-style: none;
+    display: inline-block;
+}
+
+a{
+
+    text-decoration: none;
+    transition: all 500ms ease-in-out; 
+}
+
+a:hover,
+a:active{
+
+    border: 1px solid white;
+    color: white;
+    background-color: #e74c3c;
+    
+}
+
+h1,
+h2,
+h4{
+    font-family: 'PT sans narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.btn{
+
+    transition: all 300ms ease-in-out;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+
+    background-color: #ededed !important;
+    color: #3c3c3c !important;
+    border: 1px solid #fff !important;
+    
+}
+
+
+   .fill imgimg {
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+
+/*NAVBAR starts*/
+
+
+
+
+html,
+body {
+    height: 100%;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+  background: #000;
+  color: #fff;
+}
+
+.carousel-caption{padding-bottom:auto;}
+
+.col-md-3 text-center wow animated fadeInLeft
+{
+  border: 1px solid;
+}
+
+h2{font-size: 60px;}
+p{padding:10px}
+
+@media(max-width:768px){
+  .content-1{
+    padding-bottom: auto;
+  }
+}
+
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    opacity:0.6;
+}
+
+
+
+
+/**
+ * Button
+ */
+.btn-transparent {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.btn-transparent:hover {
+  background-color: #fff;
+}
+
+.btn-rounded {
+  border-radius: 70px;
+}
+
+.btn-large {
+  padding: 11px 45px;
+  font-size: 18px;
+}
+
+/**
+ * Change animation duration
+ */
+.animated {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+.social-header li {
+  border-radius: 25px;
+  background: white;
+  color: black;
+}
+.social-header li:hover {
+  border-radius: 25px;
+  background: black;
+  color: white;
+}
+
+
+
+/*header ends*/
+
+
+/*servive start*/
+
+#services{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1));
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#services h1{
+  text-align: center;
+  color: #efefef !important;
+  padding-bottom: 10px;
+}
+#services h1::after{
+  content: '';
+  background: #efefef;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px; 
+}
+.services{
+  margin-top: 40px;
+}
+.icon{
+  font-size: 40px;
+  margin: 20px auto;
+  padding: 20px;
+  height: 80px;
+  width: 80px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+#services p{
+  font-size: 14px;
+  margin-top: 20px;
+  color: #ccc;
+}
+.services .col-md-3:hover{
+  background: #e74c3c;
+  margin: pointer;
+  transition: 0.7s;
+}
+@media(max-width:768px){
+  .services{
+    padding: 30px;
+  }
+}
+/*service ends*/
+
+
+
+/*gallary ends*/
+
+
+
+/*gallary start*/
+
+
+
+/*product start*/
+
+.product{
+  padding: 0px 0 0px;
+  text-align: center;
+  background:#fff;
+}
+.product h2,
+.product h4 {
+  color: #4c4c4c;
+  margin: 20px 0 20px;
+}
+
+.product p{
+  color: #737373;
+  font-size: 14px;
+  padding-bottom: 40px;
+}
+.product i{
+  height: 80px;
+  width: 80px;
+  font-size: 30px;
+  padding: 25px 25px;
+  border-radius: 50%;
+  background-color: #6699cc;
+  color: #fff;
+}
+
+.product .card-body{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)) !;
+  border:2px solid black;
+}
+.card-img, .card-img-top{
+  border:2px solid black;
+}
+
+@media(max-width:768px){
+  .product{
+    padding: 30px;
+  }
+}
+
+/*product end */
+
+/*offered*/
+
+#about{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #fff;
+  color: black;
+}
+
+.about-content{
+  padding-top: 20px;
+}
+.about-content img{
+  width: 100%;
+  border: 1px solid;
+}
+
+.skills-bar p{
+margin-bottom: 6px;
+font-weight: 600;
+}
+.progress-bar{
+  border-radius: 16px;
+}
+.progress{
+  border-radius: 16px !important;  
+}
+
+/*offered end */
+
+
+
+
+
+/*team start */
+
+#team img{
+  margin-top: -50px;
+}
+
+#tram i{
+  font-size: 26px;
+  color: #555;
+}
+
+#team p{
+  font-weight: 500;
+}
+
+#team .card{
+  border-radius: 0;
+  box-shadow: 5px 5px 15px #e74c3c ;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+}
+
+#team .card:hover{
+  background: #e74c3c;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 10px #9E9E9E;
+}
+
+#team .card:hover h3, #team .card:hover i{
+  color: #fff;
+}
+
+
+/*team end */
+
+
+
+/*brand end*/
+/*touch start*/
+
+.touch a{
+  text-decoration: none !important;
+  color: #fff !important;
+  }
+  .touch #contact{
+  background: #efefef;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #777;
+  }
+  .touch .contact-form{
+      padding: 15px;
+  }
+  .touch .form-control{
+      border-radius: 0 !important;
+      border: none !important;
+  }
+  .touch ::placeholder{
+      color: #999 !important;
+  }
+  .touch .follow{
+      background: #fff;
+      padding: 10px;
+      margin: 15px;
+  }
+/*touch end*/
+/*footer*/
+.foot{
+  background-color: black;
+  color: #fff;
+}
+/*footer*/
